@@ -1,0 +1,38 @@
+{
+  "name": "@tharun30115/beautify-it",
+  "version": "1.0.0",
+  "description": "Format your codebase with a cozy touch",
+  "main": "index.js",
+  "bin": {
+    "beautify-it": "./index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "formatter",
+    "prettier",
+    "cli",
+    "code",
+    "beautify",
+    "minimal",
+    "zen",
+    "developer-tool"
+  ],
+  "author": "Tharun",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tharun30115/beautify-it.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tharun30115/beautify-it/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-animation": "1.6.0",
+    "inquirer": "^8.2.5"
+  },
+  "type": "commonjs"
+}
